@@ -1,0 +1,58 @@
+MultiAuth Library Changelog
+
+Iteration 1: Added a simple OpenID login system.
+  0.1.0:  2012-07-28 Added a simple OpenID login system. 
+
+Iteration 2: Added an OpenID driver.
+  0.2.0:  2012-07-28 Added an Added OpenID driver.
+
+Iteration 3: Added a Multiple Authentication system.
+  0.3.0:  2012-07-28 The beginings of a Multiple Authentication system.
+  0.3.1:  2012-07-28 Added an AuthServiceLocator helper class.
+  0.3.2:  2012-07-28 Refactored MultiAuth::login() to use the new AuthServiceLocator.
+  0.3.3:  2012-07-28 Lots of fixes, plus added in Yahoo support.
+  0.3.4:  2012-07-28 Added license boilerplate.
+
+Iteration 4: Added secure sessions and other fixes.
+  0.4.0:  2012-07-28 Added CSRF and session hijacking prevention.
+  0.4.1:  2012-07-28 Committed some small fixes.
+  0.4.2:  2012-07-28 Added a CHANGELOG.txt
+
+Iteration 5: Added a Facebook authentication system.
+  0.5.0:  2012-07-29 Added the Facebook SDK.
+  0.5.1:  2012-07-29 Added a simple Facebook Connect login system.
+  0.5.2:  2012-07-29 Added sample fb config file.
+
+Iteration 6: FIXED 5 serious defects.
+  0.6.0:  2012-07-31 FIXED: System never knew when a user was attempting to log in.
+  0.6.1:  2012-07-31 FIXED: Session would automatically log out on proper validation.
+  0.6.2:  2012-07-31 FIXED: Session was automatically destroyed before validation could be done.
+  0.6.3:  2012-07-31 FIXED: Now properly searches the SESSION authkeys array for the POST key.
+  0.6.4:  2012-07-31 FIXED: Reimplemented validateSession(); renamed to secureSession().
+
+Iteration 7: Refactored the interface to make it easier for the End Developers.
+  0.7.0:  2012-08-01 Abstracted out the atempt to login logic.
+  0.7.1:  2012-08-01 Refactored helper functions into a new UserAuthenticator class.
+  0.7.2:  2012-08-01 More concisely handled error exceptions.
+  0.7.3:  2012-08-01 Abstracted out the entire authentication process.
+  0.7.4:  2012-08-01 Migrated the secure session code to a new SecureSessionManager.
+  0.7.5:  2012-08-01 Totally abstracted out the session handling.
+
+Iteration 8: Added in support for any 3rd party OpenID URL.
+  0.8.0:  2012-08-01 Created a system for passing custom service parameters.
+  0.8.1:  2012-08-01 Added in support for any OpenID URL.
+
+Iteration 9: Made ready for release.
+  0.9.0:  2012-08-01 Added the Thrive and Flourish frameworks.
+  0.9.1:  2012-08-01 Added Thrive_Autoloader.
+  0.9.2:  2012-08-01 REVERSION: Readded the lost custom OpenID login form.
+  0.9.3:  2012-08-01 Fixed the license boilerplates.
+  0.9.4:  2012-08-01 Renamed fb config file.
+  0.9.5:  2012-08-01 Removed three files that have no business being in the final release.
+  0.9.6:  2012-08-01 Spun off a separate library: Session Guardian.
+  0.9.7:  2012-08-01 Split up into multiple files.
+  0.9.8:  2012-08-01 Added PHPDOC blocks for every public function. LOE: 18 min.
+  0.9.9:  2012-08-01 Added a notice of which service the user has authenticated with.
+
+Iteration 10: Bug fixes.
+  1.0.0:  Fixed a bug with the autoloader.
