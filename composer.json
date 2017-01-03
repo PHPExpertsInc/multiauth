@@ -1,0 +1,8 @@
+{
+    "name": "hopeseekr/multiauthfork",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git@github.com/company/private.git"
+      }
+}
