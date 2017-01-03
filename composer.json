@@ -3,6 +3,6 @@
     "repositories": [
       {
         "type": "vcs",
-        "url": "git@github.com/company/private.git"
+        "url": "git@github.com:smijo149/multiauth.git"
       }
 }
