@@ -1,0 +1,9 @@
+{
+    "name": "smijo149/multiauth",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git@github.com:smijo149/multiauth.git"
+      }
+    ]
+}
